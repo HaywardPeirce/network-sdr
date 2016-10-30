@@ -4,11 +4,13 @@ My configuration for a Raspberry Pi-based SDR. This setup runs [rtl-sdr](http://
 
 Please note, this setup does not work on the Raspberry Pi Version 1 (256MB).
 
-It has only been tested to work correctly on the Raspberry Pi Revision 2 (512MB). 
+It has only been tested to work on the Raspberry Pi Revision 2 (512MB). 
 
 ### Resources
 
 The code for correctly configuring the rtl-sdr software for the raspberry pi and RTL2832 dongle can be found here (among many places): https://learn.adafruit.com/freq-show-raspberry-pi-rtl-sdr-scanner/installation
+
+The basis for the script used to call rtl-tcp with the correct ip address be found here: https://www.medo64.com/2016/04/sdr-on-raspberry-pi-3-software/
 
 ### Installation
 
