@@ -2,7 +2,8 @@
 
 My configuration for a Raspberry Pi-based SDR. This setup runs [rtl-sdr](http://sdr.osmocom.org/trac/wiki/rtl-sdr) on a standard RTL2832-based DVB-T USB tuner to allow remote clients to connect to, and tune, the SDR.
 
-Please note, this setup does not work on the Raspberry Pi Version 1 (256MB). 
+Please note, this setup does not work on the Raspberry Pi Version 1 (256MB).
+
 It has only been tested to work correctly on the Raspberry Pi Revision 2 (512MB). 
 
 ### Resources
@@ -11,10 +12,12 @@ The code for correctly configuring the rtl-sdr software for the raspberry pi and
 
 ### Installation
 
-Install Upstart
+Install Upstart:
+
 `sudo apt-get install upstart`
 
 Using the information from the Adafruit installation instructions:
+
 Install the nessisary pre-requisites:
 ```
 sudo apt-get update
